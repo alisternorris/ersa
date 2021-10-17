@@ -1,4 +1,9 @@
-import * as React from 'react';
-import * as ReactDOM from 'react-dom';
+import React from 'react'
 
-ReactDOM.render(<h2>Hello from test!</h2>, document.getElementById('root'));
+const App = () : JSX.Element => {
+  return (
+    <div>hello!</div>
+  )
+}
+
+export default App
